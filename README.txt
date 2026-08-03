@@ -2,6 +2,9 @@
 
 1. Clone the repository 
 
+git clone https://github.com/ParikshitNautiyal/TriadixOIP_Internship_Tasks.git
+cd TriadixOIP_Internship_Tasks
+
 2. Create and activate virtual environment 
 (if required bypass execution policy using and then activate virtual env. : Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass  )
 
@@ -9,7 +12,7 @@ In terminal :
 python -m venv venv
 venv\Scripts\activate
 
-3. Install dependencies using requirements.txt (~200MB data required for downloading)
+3. Install dependencies using requirements.txt (~300MB data required for downloading. NOTE : Remove Jupyter Notebook from requirements if already installed)
 
 pip install -r requirements.txt
 
